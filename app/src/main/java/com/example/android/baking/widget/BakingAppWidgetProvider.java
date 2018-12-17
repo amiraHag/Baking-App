@@ -18,7 +18,7 @@ public class BakingAppWidgetProvider extends AppWidgetProvider {
 
     public static void updateAppWidget(Context context, AppWidgetManager appWidgetManager,
                                        int appWidgetId) {
-        Recipe mRecipe = Paper.book().read("recipesa");
+        Recipe mRecipe = Paper.book().read("recipeupdated");
         String mRecipieName;
         String mRecipieIngredients;
 
@@ -36,7 +36,7 @@ public class BakingAppWidgetProvider extends AppWidgetProvider {
         // Create an Intent to launch the recipie Activity
         Intent intent = new Intent(context, RecipeDetailActivity.class);
         intent.putExtra(RecipeDetailActivity.RECIPE_ID, mRecipe);
-        PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
+        PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
 
         // Get the layout for the App Widget and attach an on-click listener to the views

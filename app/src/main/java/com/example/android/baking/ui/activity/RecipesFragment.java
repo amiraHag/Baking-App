@@ -224,7 +224,6 @@ public void setupRecipeBroadcastReciever(){
             if (mRecipesList== null) {
                 initRecipesList();
             }
-            initWidgitRecipes();
         }
     };
 

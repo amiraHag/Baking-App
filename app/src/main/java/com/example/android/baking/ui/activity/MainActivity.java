@@ -7,6 +7,7 @@ import android.os.Bundle;
 import com.example.android.baking.R;
 import com.example.android.baking.data.model.Recipe;
 import com.example.android.baking.ui.listener.OnRecipeClickListener;
+import com.example.android.baking.widget.BakingAppWidgetService;
 
 public class MainActivity extends AppCompatActivity implements OnRecipeClickListener {
     private  Recipe mRecipe;
@@ -16,7 +17,8 @@ public class MainActivity extends AppCompatActivity implements OnRecipeClickList
     }
 
     public void setmRecipe(Recipe mRecipe) {
-        this.mRecipe = mRecipe;
+        BakingAppWidgetService.initWidgetContent(this, mRecipe);
+         this.mRecipe = mRecipe;
     }
 
     @Override

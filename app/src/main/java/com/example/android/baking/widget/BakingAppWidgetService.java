@@ -28,7 +28,8 @@ public class BakingAppWidgetService extends IntentService {
     }
 
     public static void initWidgetContent(Context context, Recipe recipe) {
-        Paper.book().write("recipesa", recipe);
+        Paper.book().write("recipeupdated", recipe);
+
         initAppWidget(context);
     }
 
@@ -65,7 +66,7 @@ public class BakingAppWidgetService extends IntentService {
     }
 
     private void handleActionOpenRecipeActivity() {
-        Recipe recipe = Paper.book().read("recipesa");
+        Recipe recipe = Paper.book().read("recipeupdated");
         setmRecipieIngredients(recipe);
         initAppWidget(this);
     }
