@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/recipe_list_item_margin_bottom"
+    android:background="@color/colorRecipeItem"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_recipe"
+        android:layout_width="@dimen/recipe_list_item_image_dimen"
+        android:layout_height="@dimen/recipe_list_item_image_dimen"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/recipe_list_item_text_margin"
+        app:srcCompat="@drawable/ic_app_background" />
+
+    <TextView
+        android:id="@+id/tv_recipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/recipe_list_item_text_margin"
+        android:gravity="center"
+        android:textSize="@dimen/recipe_list_item_text_size"
+        tools:text="@string/recipe_default_text" />
+
+</LinearLayout>

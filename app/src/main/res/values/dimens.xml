@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Recipe list item dimensions -->
+    <dimen name="recipe_list_item_margin_bottom">5dp</dimen>
+    <dimen name="recipe_list_item_text_margin">5dp</dimen>
+    <dimen name="recipe_list_item_image_dimen">60dp</dimen>
+    <dimen name="recipe_list_item_text_size">20sp</dimen>
+
+
+
+    <!--Recipe details dimensions -->
+    <dimen name="margin_value_medium">14dp</dimen>
+    <dimen name="margin_value_large">20dp</dimen>
+    <dimen name="recipe_details_text">16sp</dimen>
+    <dimen name="title_text_size">22sp</dimen>
+
+    <!--Steps list dimensions -->
+    <dimen name="recipe_detail_list_margin">16dp</dimen>
+    <dimen name="recipe_detail_list_image_height">100dp</dimen>
+
+
+    <!--Widget dimensions -->
+    <dimen name="app_widget_margin">10dp</dimen>
+    <dimen name="margin_text">8dp</dimen>
+    <dimen name="text_widget">12sp</dimen>
+
+</resources>

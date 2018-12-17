@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8fb6e6</color>
+    <color name="colorPrimaryDark">#237ab7</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorWidget">#99b6d6</color>
+    <color name="colorRecipeItem">#e9f3ff</color>
+    <color name="colorGreyLight">#cfcfcf</color>
+    <color name="whiteColor">#000000</color>
+</resources>

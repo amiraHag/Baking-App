@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Baking App</string>
+
+    <!-- recipes strings -->
+    <string name="recipe_default_text"> Nutella Pie</string>
+    <string name="no_internet_access">No Internet Connection</string>
+    <string name="recipes_content_not_available">Recipes contant not available.</string>
+    <string name="data_not_loaded">Failed to fetch data, please try again later</string>
+    <string name="RECIPES_LIST">recipes</string>
+    <string name="RV_MAIN_LAYOUT">rv_main_layout</string>
+    <string name="RECIPE_ID">recipe_id</string>
+    <string name="failed_to_load_recipe">Failed to load data, please try again</string>
+
+    <!-- recipe step strings -->
+    <string name="recipe_step_detail_activity_title">Recipe Step Details:</string>
+    <string name="recipe_detail_ingredient_title">Recipe Ingredients: </string>
+    <string name="recipe_detail_ingredient_text">Ingredients: </string>
+
+    <string name="recipe_step_order_text">00. </string>
+    <string name="recipe_step_name_text">Step Intro. </string>
+
+
+</resources>
